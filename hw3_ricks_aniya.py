@@ -9,8 +9,6 @@ def format_receipt(items, prices, quantities):
     >>> quantities = [2, 1, 3]
     >>> print(format_receipt(items, prices, quantities))
     """
-    # Your code here
-    
     #Header Content
     print("="*35)
     print(f"{'Item':<20} {'Qty':>5} {'Price':>8}")
@@ -36,6 +34,7 @@ def process_user_data(raw_data):
     ... 'address': '123 main street, apt 5'
     ... }
     """
+    
     cleaned_data = {}
     # Clean name
     name = raw_data.get('name', '').strip().title()
@@ -78,7 +77,6 @@ def process_user_data(raw_data):
         validation['address'] = False
     cleaned_data['validation'] = validation
         
-    
     return cleaned_data #(f"Cleaned Data:\nName: {cleaned_data['name']}\nEmail: {cleaned_data['email']}\nPhone: {cleaned_data['phone']}\nAddress: {cleaned_data['address']}\nUsername: {cleaned_data['username']}\nValidation Results: {cleaned_data["validation"]}")
 
 def analyze_text(text):

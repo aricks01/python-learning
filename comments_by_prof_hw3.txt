@@ -1,0 +1,26 @@
+1. Great job, Aniya!
+2. Grading Rubric:
+   * String methods:          
+    * Receipt Formatting     10
+    * Data Processing        12
+    * Text Analysis          13
+   * Regular Expression:     
+    * Pattern Finding        10
+    * Format Validation      12
+    * Information Extraction 13
+   * Combined:                
+    * Cleaning Pipeline      10
+    * Smart Replace          10
+   * Application:            
+    * Log Analysis           10 
+   
+3. Total: 100 out of 100.
+
+Keep up the good work!
+
+Dr. X. W.
+
+Details:
+1. Line 176: No need to use nested groups; you can use \(? \)? instead of \D?
+2. Line 179: No need for group
+3. Line 254: This re will allow forms of $1,1.00 as a valid form of price
