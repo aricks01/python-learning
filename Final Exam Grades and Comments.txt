@@ -1,0 +1,29 @@
+Part I              36.5 out of 40
+Part II             125 out of 50
+Part II Grading Rubrics:
+Problem 1:                  25 out of 25
+    Open File and read:     10 out of 10
+    Count lines:            5 out of 5
+    Count Words:            5 out of 5
+    Count Characters:       5 out of 5
+
+Problem 2:                  25 out of 25
+    __init__:               5 out of 5
+    add_grade:              5 out of 5
+    calculate_average:      5 out of 5
+    get_status:             10 out of 10
+
+Problem 3:                  25 out of 25
+    List indexing:          10 out of 10    
+    Exception handling:     15 out of 15
+
+Problem 4:                  25 out of 25
+    Base case:              10 out of 10
+    Recursive case:         15 out of 15
+
+Problem 5:                  25 out of 25
+    with_revenue:           5 out of 5
+    Sum:                    5 out of 5
+    High_value:             5 out of 5
+    low_stock:              5 out of 5
+    average_price:          6 out of 5
